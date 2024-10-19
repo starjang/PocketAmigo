@@ -9,7 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        PoketRootView()
+//        PoketRootView()
+        Text("hello")
     }
 }
 

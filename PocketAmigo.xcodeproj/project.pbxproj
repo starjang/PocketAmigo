@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		842762A82CC38A9600F11D04 /* PoketRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842762A72CC38A9600F11D04 /* PoketRootView.swift */; };
 		842762AE2CC38B0900F11D04 /* ability-34.json in Resources */ = {isa = PBXBuildFile; fileRef = 842762AC2CC38B0900F11D04 /* ability-34.json */; };
 		842762AF2CC38B0900F11D04 /* ability-65.json in Resources */ = {isa = PBXBuildFile; fileRef = 842762AD2CC38B0900F11D04 /* ability-65.json */; };
 		842762CE2CC38B1200F11D04 /* pokemon-7.json in Resources */ = {isa = PBXBuildFile; fileRef = 842762B62CC38B1200F11D04 /* pokemon-7.json */; };
@@ -70,6 +69,7 @@
 		842763252CC38B1A00F11D04 /* pokemon-species-12.json in Resources */ = {isa = PBXBuildFile; fileRef = 842762F72CC38B1A00F11D04 /* pokemon-species-12.json */; };
 		842763262CC38B1A00F11D04 /* pokemon-species-9.json in Resources */ = {isa = PBXBuildFile; fileRef = 842762F42CC38B1A00F11D04 /* pokemon-species-9.json */; };
 		842763272CC38B1A00F11D04 /* pokemon-species-20.json in Resources */ = {isa = PBXBuildFile; fileRef = 842762FF2CC38B1A00F11D04 /* pokemon-species-20.json */; };
+		842763292CC38C3700F11D04 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842763282CC38C3700F11D04 /* Store.swift */; };
 		84DAD3622CC38632005994B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DAD35B2CC38632005994B0 /* Preview Assets.xcassets */; };
 		84DAD3632CC38632005994B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DAD35E2CC38632005994B0 /* Assets.xcassets */; };
 		84DAD3642CC38632005994B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DAD35F2CC38632005994B0 /* ContentView.swift */; };
@@ -107,7 +107,6 @@
 		55CDB7411AD08ABB61033D70 /* Pods-PocketAmigoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketAmigoTests.release.xcconfig"; path = "Target Support Files/Pods-PocketAmigoTests/Pods-PocketAmigoTests.release.xcconfig"; sourceTree = "<group>"; };
 		6C598D7E3F2215A6E2CF4C06 /* Pods-PocketAmigo-PocketAmigoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketAmigo-PocketAmigoUITests.debug.xcconfig"; path = "Target Support Files/Pods-PocketAmigo-PocketAmigoUITests/Pods-PocketAmigo-PocketAmigoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7EE9837D70D2AAEB4F62709D /* Pods-PocketAmigoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketAmigoTests.debug.xcconfig"; path = "Target Support Files/Pods-PocketAmigoTests/Pods-PocketAmigoTests.debug.xcconfig"; sourceTree = "<group>"; };
-		842762A72CC38A9600F11D04 /* PoketRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoketRootView.swift; sourceTree = "<group>"; };
 		842762AC2CC38B0900F11D04 /* ability-34.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "ability-34.json"; sourceTree = "<group>"; };
 		842762AD2CC38B0900F11D04 /* ability-65.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "ability-65.json"; sourceTree = "<group>"; };
 		842762B02CC38B1200F11D04 /* pokemon-1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "pokemon-1.json"; sourceTree = "<group>"; };
@@ -170,6 +169,7 @@
 		842763072CC38B1A00F11D04 /* pokemon-species-28.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "pokemon-species-28.json"; sourceTree = "<group>"; };
 		842763082CC38B1A00F11D04 /* pokemon-species-29.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "pokemon-species-29.json"; sourceTree = "<group>"; };
 		842763092CC38B1A00F11D04 /* pokemon-species-30.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "pokemon-species-30.json"; sourceTree = "<group>"; };
+		842763282CC38C3700F11D04 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 		8470858D2CC359DE00F16AB7 /* PocketAmigo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketAmigo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8470859D2CC359E100F16AB7 /* PocketAmigoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketAmigoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		847085A72CC359E100F16AB7 /* PocketAmigoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketAmigoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -215,6 +215,7 @@
 		842762A22CC388E600F11D04 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				842763282CC38C3700F11D04 /* Store.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -247,7 +248,6 @@
 		842762A62CC38A7800F11D04 /* List */ = {
 			isa = PBXGroup;
 			children = (
-				842762A72CC38A9600F11D04 /* PoketRootView.swift */,
 			);
 			path = List;
 			sourceTree = "<group>";
@@ -431,7 +431,6 @@
 				847085892CC359DE00F16AB7 /* Sources */,
 				8470858A2CC359DE00F16AB7 /* Frameworks */,
 				8470858B2CC359DE00F16AB7 /* Resources */,
-				9C405CB58E82B1CA6A4E2C93 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -469,7 +468,6 @@
 				847085A32CC359E100F16AB7 /* Sources */,
 				847085A42CC359E100F16AB7 /* Frameworks */,
 				847085A52CC359E100F16AB7 /* Resources */,
-				6299ECC0DFD388BA7CF296B5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -513,6 +511,9 @@
 				Base,
 			);
 			mainGroup = 847085842CC359DE00F16AB7;
+			packageReferences = (
+				84429CB02CC39CBE00FB27AF /* XCRemoteSwiftPackageReference "Kingfisher.git" */,
+			);
 			productRefGroup = 8470858E2CC359DE00F16AB7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -657,23 +658,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6299ECC0DFD388BA7CF296B5 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PocketAmigo-PocketAmigoUITests/Pods-PocketAmigo-PocketAmigoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PocketAmigo-PocketAmigoUITests/Pods-PocketAmigo-PocketAmigoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PocketAmigo-PocketAmigoUITests/Pods-PocketAmigo-PocketAmigoUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		6FC2AF442D33B4AC2312A040 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -696,23 +680,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9C405CB58E82B1CA6A4E2C93 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PocketAmigo/Pods-PocketAmigo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PocketAmigo/Pods-PocketAmigo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PocketAmigo/Pods-PocketAmigo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -720,9 +687,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				842762A82CC38A9600F11D04 /* PoketRootView.swift in Sources */,
 				84DAD3642CC38632005994B0 /* ContentView.swift in Sources */,
 				84DAD3652CC38632005994B0 /* PocketAmigoApp.swift in Sources */,
+				842763292CC38C3700F11D04 /* Store.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1054,6 +1021,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		84429CB02CC39CBE00FB27AF /* XCRemoteSwiftPackageReference "Kingfisher.git" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 847085852CC359DE00F16AB7 /* Project object */;
 }

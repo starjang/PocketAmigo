@@ -6,7 +6,7 @@ target 'PocketAmigo' do
   use_frameworks!
 
   # Pods for PocketAmigo
-  pod 'Kingfisher', '~> 8.0'
+#  pod 'Kingfisher', '~> 8.0'
 
 
   target 'PocketAmigoTests' do
