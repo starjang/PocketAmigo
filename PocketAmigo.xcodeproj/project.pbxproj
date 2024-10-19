@@ -3,8 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 56;
 	objects = {
+
+/* Begin PBXBuildFile section */
+		84DAD3622CC38632005994B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DAD35B2CC38632005994B0 /* Preview Assets.xcassets */; };
+		84DAD3632CC38632005994B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DAD35E2CC38632005994B0 /* Assets.xcassets */; };
+		84DAD3642CC38632005994B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DAD35F2CC38632005994B0 /* ContentView.swift */; };
+		84DAD3652CC38632005994B0 /* PocketAmigoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DAD3602CC38632005994B0 /* PocketAmigoApp.swift */; };
+		84DAD3682CC38648005994B0 /* PocketAmigoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DAD3662CC38648005994B0 /* PocketAmigoTests.swift */; };
+		84DAD36C2CC3864C005994B0 /* PocketAmigoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DAD3692CC3864C005994B0 /* PocketAmigoUITests.swift */; };
+		84DAD36D2CC3864C005994B0 /* PocketAmigoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DAD36A2CC3864C005994B0 /* PocketAmigoUITestsLaunchTests.swift */; };
+		96353E515CBEA029960BDB72 /* Pods_PocketAmigo_PocketAmigoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 544B4F7F398C70042C350F88 /* Pods_PocketAmigo_PocketAmigoUITests.framework */; };
+		B8DD4CA24B466DAE644303CF /* Pods_PocketAmigoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF2A9ACE5515EA2D18DAB0E5 /* Pods_PocketAmigoTests.framework */; };
+		C21DE8A0D5094EA2E3307847 /* Pods_PocketAmigo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00E6A80598956B1BD86FCF8A /* Pods_PocketAmigo.framework */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		8470859E2CC359E100F16AB7 /* PBXContainerItemProxy */ = {
@@ -24,34 +37,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		001DD7D03C96C978ACE2B9E2 /* Pods-PocketAmigo-PocketAmigoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketAmigo-PocketAmigoUITests.release.xcconfig"; path = "Target Support Files/Pods-PocketAmigo-PocketAmigoUITests/Pods-PocketAmigo-PocketAmigoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		00E6A80598956B1BD86FCF8A /* Pods_PocketAmigo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PocketAmigo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A5B8C4618622669821397FA /* Pods-PocketAmigo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketAmigo.release.xcconfig"; path = "Target Support Files/Pods-PocketAmigo/Pods-PocketAmigo.release.xcconfig"; sourceTree = "<group>"; };
+		544B4F7F398C70042C350F88 /* Pods_PocketAmigo_PocketAmigoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PocketAmigo_PocketAmigoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55CDB7411AD08ABB61033D70 /* Pods-PocketAmigoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketAmigoTests.release.xcconfig"; path = "Target Support Files/Pods-PocketAmigoTests/Pods-PocketAmigoTests.release.xcconfig"; sourceTree = "<group>"; };
+		6C598D7E3F2215A6E2CF4C06 /* Pods-PocketAmigo-PocketAmigoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketAmigo-PocketAmigoUITests.debug.xcconfig"; path = "Target Support Files/Pods-PocketAmigo-PocketAmigoUITests/Pods-PocketAmigo-PocketAmigoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7EE9837D70D2AAEB4F62709D /* Pods-PocketAmigoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketAmigoTests.debug.xcconfig"; path = "Target Support Files/Pods-PocketAmigoTests/Pods-PocketAmigoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8470858D2CC359DE00F16AB7 /* PocketAmigo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketAmigo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8470859D2CC359E100F16AB7 /* PocketAmigoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketAmigoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		847085A72CC359E100F16AB7 /* PocketAmigoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketAmigoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84DAD35B2CC38632005994B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		84DAD35E2CC38632005994B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84DAD35F2CC38632005994B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		84DAD3602CC38632005994B0 /* PocketAmigoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketAmigoApp.swift; sourceTree = "<group>"; };
+		84DAD3662CC38648005994B0 /* PocketAmigoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketAmigoTests.swift; sourceTree = "<group>"; };
+		84DAD3692CC3864C005994B0 /* PocketAmigoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketAmigoUITests.swift; sourceTree = "<group>"; };
+		84DAD36A2CC3864C005994B0 /* PocketAmigoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketAmigoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9377608DF64EB843BEDA57EF /* Pods-PocketAmigo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketAmigo.debug.xcconfig"; path = "Target Support Files/Pods-PocketAmigo/Pods-PocketAmigo.debug.xcconfig"; sourceTree = "<group>"; };
+		CF2A9ACE5515EA2D18DAB0E5 /* Pods_PocketAmigoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PocketAmigoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		8470858F2CC359DE00F16AB7 /* PocketAmigo */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = PocketAmigo;
-			sourceTree = "<group>";
-		};
-		847085A02CC359E100F16AB7 /* PocketAmigoTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = PocketAmigoTests;
-			sourceTree = "<group>";
-		};
-		847085AA2CC359E100F16AB7 /* PocketAmigoUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = PocketAmigoUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8470858A2CC359DE00F16AB7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C21DE8A0D5094EA2E3307847 /* Pods_PocketAmigo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8DD4CA24B466DAE644303CF /* Pods_PocketAmigoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96353E515CBEA029960BDB72 /* Pods_PocketAmigo_PocketAmigoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,10 +89,12 @@
 		847085842CC359DE00F16AB7 = {
 			isa = PBXGroup;
 			children = (
-				8470858F2CC359DE00F16AB7 /* PocketAmigo */,
-				847085A02CC359E100F16AB7 /* PocketAmigoTests */,
-				847085AA2CC359E100F16AB7 /* PocketAmigoUITests */,
+				84DAD3612CC38632005994B0 /* PocketAmigo */,
+				84DAD3672CC38648005994B0 /* PocketAmigoTests */,
+				84DAD36B2CC3864C005994B0 /* PocketAmigoUITests */,
 				8470858E2CC359DE00F16AB7 /* Products */,
+				AACBC53ECD7BC255DDD59068 /* Pods */,
+				F290992BD744BC31AEAFC131 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +108,81 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		84DAD35A2CC38632005994B0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84DAD35C2CC38632005994B0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				84DAD35B2CC38632005994B0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		84DAD35D2CC38632005994B0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84DAD3612CC38632005994B0 /* PocketAmigo */ = {
+			isa = PBXGroup;
+			children = (
+				84DAD35A2CC38632005994B0 /* Model */,
+				84DAD35C2CC38632005994B0 /* Preview Content */,
+				84DAD35D2CC38632005994B0 /* View */,
+				84DAD35E2CC38632005994B0 /* Assets.xcassets */,
+				84DAD35F2CC38632005994B0 /* ContentView.swift */,
+				84DAD3602CC38632005994B0 /* PocketAmigoApp.swift */,
+			);
+			path = PocketAmigo;
+			sourceTree = "<group>";
+		};
+		84DAD3672CC38648005994B0 /* PocketAmigoTests */ = {
+			isa = PBXGroup;
+			children = (
+				84DAD3662CC38648005994B0 /* PocketAmigoTests.swift */,
+			);
+			path = PocketAmigoTests;
+			sourceTree = "<group>";
+		};
+		84DAD36B2CC3864C005994B0 /* PocketAmigoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84DAD3692CC3864C005994B0 /* PocketAmigoUITests.swift */,
+				84DAD36A2CC3864C005994B0 /* PocketAmigoUITestsLaunchTests.swift */,
+			);
+			path = PocketAmigoUITests;
+			sourceTree = "<group>";
+		};
+		AACBC53ECD7BC255DDD59068 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9377608DF64EB843BEDA57EF /* Pods-PocketAmigo.debug.xcconfig */,
+				2A5B8C4618622669821397FA /* Pods-PocketAmigo.release.xcconfig */,
+				6C598D7E3F2215A6E2CF4C06 /* Pods-PocketAmigo-PocketAmigoUITests.debug.xcconfig */,
+				001DD7D03C96C978ACE2B9E2 /* Pods-PocketAmigo-PocketAmigoUITests.release.xcconfig */,
+				7EE9837D70D2AAEB4F62709D /* Pods-PocketAmigoTests.debug.xcconfig */,
+				55CDB7411AD08ABB61033D70 /* Pods-PocketAmigoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F290992BD744BC31AEAFC131 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00E6A80598956B1BD86FCF8A /* Pods_PocketAmigo.framework */,
+				544B4F7F398C70042C350F88 /* Pods_PocketAmigo_PocketAmigoUITests.framework */,
+				CF2A9ACE5515EA2D18DAB0E5 /* Pods_PocketAmigoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -99,20 +190,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 847085B12CC359E100F16AB7 /* Build configuration list for PBXNativeTarget "PocketAmigo" */;
 			buildPhases = (
+				09A7D6432C43E5141688E284 /* [CP] Check Pods Manifest.lock */,
 				847085892CC359DE00F16AB7 /* Sources */,
 				8470858A2CC359DE00F16AB7 /* Frameworks */,
 				8470858B2CC359DE00F16AB7 /* Resources */,
+				9C405CB58E82B1CA6A4E2C93 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				8470858F2CC359DE00F16AB7 /* PocketAmigo */,
-			);
 			name = PocketAmigo;
-			packageProductDependencies = (
-			);
 			productName = PocketAmigo;
 			productReference = 8470858D2CC359DE00F16AB7 /* PocketAmigo.app */;
 			productType = "com.apple.product-type.application";
@@ -121,6 +209,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 847085B42CC359E100F16AB7 /* Build configuration list for PBXNativeTarget "PocketAmigoTests" */;
 			buildPhases = (
+				05C95BF88059C5466FA97F99 /* [CP] Check Pods Manifest.lock */,
 				847085992CC359E100F16AB7 /* Sources */,
 				8470859A2CC359E100F16AB7 /* Frameworks */,
 				8470859B2CC359E100F16AB7 /* Resources */,
@@ -130,12 +219,7 @@
 			dependencies = (
 				8470859F2CC359E100F16AB7 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				847085A02CC359E100F16AB7 /* PocketAmigoTests */,
-			);
 			name = PocketAmigoTests;
-			packageProductDependencies = (
-			);
 			productName = PocketAmigoTests;
 			productReference = 8470859D2CC359E100F16AB7 /* PocketAmigoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -144,21 +228,18 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 847085B72CC359E100F16AB7 /* Build configuration list for PBXNativeTarget "PocketAmigoUITests" */;
 			buildPhases = (
+				6FC2AF442D33B4AC2312A040 /* [CP] Check Pods Manifest.lock */,
 				847085A32CC359E100F16AB7 /* Sources */,
 				847085A42CC359E100F16AB7 /* Frameworks */,
 				847085A52CC359E100F16AB7 /* Resources */,
+				6299ECC0DFD388BA7CF296B5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				847085A92CC359E100F16AB7 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				847085AA2CC359E100F16AB7 /* PocketAmigoUITests */,
-			);
 			name = PocketAmigoUITests;
-			packageProductDependencies = (
-			);
 			productName = PocketAmigoUITests;
 			productReference = 847085A72CC359E100F16AB7 /* PocketAmigoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -187,6 +268,7 @@
 				};
 			};
 			buildConfigurationList = 847085882CC359DE00F16AB7 /* Build configuration list for PBXProject "PocketAmigo" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -194,8 +276,6 @@
 				Base,
 			);
 			mainGroup = 847085842CC359DE00F16AB7;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 8470858E2CC359DE00F16AB7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -212,6 +292,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84DAD3622CC38632005994B0 /* Preview Assets.xcassets in Resources */,
+				84DAD3632CC38632005994B0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,11 +313,116 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05C95BF88059C5466FA97F99 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PocketAmigoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		09A7D6432C43E5141688E284 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PocketAmigo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6299ECC0DFD388BA7CF296B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PocketAmigo-PocketAmigoUITests/Pods-PocketAmigo-PocketAmigoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PocketAmigo-PocketAmigoUITests/Pods-PocketAmigo-PocketAmigoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PocketAmigo-PocketAmigoUITests/Pods-PocketAmigo-PocketAmigoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FC2AF442D33B4AC2312A040 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PocketAmigo-PocketAmigoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C405CB58E82B1CA6A4E2C93 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PocketAmigo/Pods-PocketAmigo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PocketAmigo/Pods-PocketAmigo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PocketAmigo/Pods-PocketAmigo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		847085892CC359DE00F16AB7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84DAD3642CC38632005994B0 /* ContentView.swift in Sources */,
+				84DAD3652CC38632005994B0 /* PocketAmigoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +430,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84DAD3682CC38648005994B0 /* PocketAmigoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +438,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84DAD36C2CC3864C005994B0 /* PocketAmigoUITests.swift in Sources */,
+				84DAD36D2CC3864C005994B0 /* PocketAmigoUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,7 +496,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -369,7 +559,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -390,6 +580,7 @@
 		};
 		847085B22CC359E100F16AB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9377608DF64EB843BEDA57EF /* Pods-PocketAmigo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -419,6 +610,7 @@
 		};
 		847085B32CC359E100F16AB7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A5B8C4618622669821397FA /* Pods-PocketAmigo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -448,6 +640,7 @@
 		};
 		847085B52CC359E100F16AB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EE9837D70D2AAEB4F62709D /* Pods-PocketAmigoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -467,6 +660,7 @@
 		};
 		847085B62CC359E100F16AB7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55CDB7411AD08ABB61033D70 /* Pods-PocketAmigoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +680,7 @@
 		};
 		847085B82CC359E100F16AB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C598D7E3F2215A6E2CF4C06 /* Pods-PocketAmigo-PocketAmigoUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -503,6 +698,7 @@
 		};
 		847085B92CC359E100F16AB7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 001DD7D03C96C978ACE2B9E2 /* Pods-PocketAmigo-PocketAmigoUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
