@@ -108,13 +108,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		84DAD35A2CC38632005994B0 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		84DAD35C2CC38632005994B0 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,19 +116,10 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		84DAD35D2CC38632005994B0 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
 		84DAD3612CC38632005994B0 /* PocketAmigo */ = {
 			isa = PBXGroup;
 			children = (
-				84DAD35A2CC38632005994B0 /* Model */,
 				84DAD35C2CC38632005994B0 /* Preview Content */,
-				84DAD35D2CC38632005994B0 /* View */,
 				84DAD35E2CC38632005994B0 /* Assets.xcassets */,
 				84DAD35F2CC38632005994B0 /* ContentView.swift */,
 				84DAD3602CC38632005994B0 /* PocketAmigoApp.swift */,
